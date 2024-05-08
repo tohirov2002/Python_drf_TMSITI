@@ -133,12 +133,12 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 STATIC_URL = 'static/'
 
-if DEBUG is False:
+# if DEBUG is False:
     # STATIC_ROOT = '/home/my_domain/domain_dir/static/'
-    STATIC_ROOT = 'static'
+STATIC_ROOT = 'static'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    BASE_DIR / "media",
 ]
 
 # Default primary key field type
