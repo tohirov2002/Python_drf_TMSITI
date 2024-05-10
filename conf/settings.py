@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     #my apps
     'users',
     'app_construction',
+    'app_electronic',
 ]
 
 MIDDLEWARE = [
