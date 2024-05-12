@@ -33,6 +33,8 @@ urlpatterns = [
     path('api/v1/users/', include('users.urls')),
     path('api/v1/construction/', include('app_construction.urls')),
     path('api/v1/electronic/', include('app_electronic.urls')),
+    path('api/v1/cityplans/', include('app_cityplans.urls')),
+    path('api/v1/dictionary/', include('app_dictionary.urls')),
     # drf yasg urls
     # path('swagger<format>/', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),

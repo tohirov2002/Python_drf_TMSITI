@@ -52,6 +52,8 @@ INSTALLED_APPS = [
     'users',
     'app_construction',
     'app_electronic',
+    'app_cityplans',
+    'app_dictionary',
 ]
 
 MIDDLEWARE = [
